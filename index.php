@@ -18,7 +18,7 @@
         td {
             width: 70px;
             height: 70px;
-            border: 1px solid #000;
+            border: 5px groove #000;
         }
 
         </style>
