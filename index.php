@@ -13,17 +13,17 @@
 
     <body>
         <?php 
-        echo'<table>';
+        echo'<table style=" border=1px;border-collapse: collapse;">';
            for($i=0;$i<=8;$i++){
                //print row 
               echo' <tr>';
                for($j=0;$j<=8;$j++){
                    //print cols
                    if(($i+$j)%2 == 0){
-                    echo '<td style="background-color: black; width = 20px; height = 20px;"> </td>';
+                    echo '<td style="background-color: #000; width = 120px; height = 120px;"> </td>';
                 }
                    else{
-                        echo'<td style="width = 20px; height = 20px;"> </td>';
+                        echo'<td style="background-color:#fff;width = 120px; height = 120px;"> </td>';
                    }
                }
                echo'</tr>';
