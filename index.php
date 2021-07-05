@@ -11,14 +11,20 @@
         <link rel="stylesheet" href="">
         <style>
         table {
-            border: 2px solid #000;
+            border: 5px groove #000;
             border-collapse: collapse;
+            outline-offset: 7px;
+            outline: 2px groove #000;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
         }
 
         td {
             width: 70px;
             height: 70px;
-            border: 5px groove #000;
+
+
         }
 
         </style>
