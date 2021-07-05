@@ -11,13 +11,13 @@
         <link rel="stylesheet" href="">
         <style>
         table {
-            border=2px solid #000;
+            border: 2px solid #000;
             border-collapse: collapse;
         }
 
         td {
-            width=120px;
-            height=120px;
+            width: 120px;
+            height: 120px;
             border: 1px solid #000;
         }
 
