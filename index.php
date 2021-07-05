@@ -12,18 +12,23 @@
     </head>
 
     <body>
-        <table> <?php 
+        <?php 
+        echo'<table>';
            for($i=0;$i<=8;$i++){
                //print row 
-               <tr>
+              echo' <tr>';
                for($j=0;$j<=8;$j++){
                    //print cols
-                   
-                   
+                   if(($i+$j)%2 == 0){
+                    echo '<td style="background-color: black; width = 20px; height = 20px;"> </td>';
+                }
+                   else{
+                        echo'<td style="width = 20px; height = 20px;"> </td>';
+                   }
                }
-               </tr>
+               echo'</tr>';
            }
-        
+           echo' </table>';
         ?>
         </table>
         <script src="" async defer>
