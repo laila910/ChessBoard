@@ -32,11 +32,11 @@
 
     <body>
         <?php 
-        echo'<table >';
-           for($i=0;$i<8;$i++){
-               //print row 
-              echo' <tr>';
-               for($j=0;$j<8;$j++){
+           echo'<table >';
+              for($i=0;$i<8;$i++){
+                  //print row 
+                  echo' <tr>';
+                for($j=0;$j<8;$j++){
                    //print cols
                    if(($i+$j)%2 == 0){
                     echo '<td style="background-color: #000; "> </td>';
