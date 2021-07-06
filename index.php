@@ -39,10 +39,10 @@
                 for($j=0;$j<8;$j++){
                    //print cols
                    if(($i+$j)%2 == 0){
-                    echo '<td style="background-color: #000; "> </td>';
+                    echo '<td style="background-color: #fff; "> </td>';
                 }
                    else{
-                        echo'<td style="background-color:#fff;"> </td>';
+                        echo'<td style="background-color:#000;"> </td>';
                    }
                }
                echo'</tr>';
